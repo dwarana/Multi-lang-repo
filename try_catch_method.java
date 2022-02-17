@@ -58,7 +58,7 @@ public class question12 {
                 //File f = new File(a[I]);
                 try {
                     String line;
-                    DataInput d = new DataInputStream(new FileInputStream(a[I]));
+                    //DataInput d = new DataInputStream(new FileInputStream(a[I]));
                     if (f.exists() && f.isFile()) {
                         System.out.println("file exists");
                         System.out.println(f + "is ordinary file");
