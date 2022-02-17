@@ -55,7 +55,7 @@ public class question12 {
                 return;
             }
             for(int I=0;I<a.length; I++) {
-                File f = new File(a[I]);
+                //File f = new File(a[I]);
                 try {
                     String line;
                     DataInput d = new DataInputStream(new FileInputStream(a[I]));
